@@ -8,7 +8,9 @@ Também incluimos alguns testes em TestePoderDaAmizade.java.
 
 Resta a você, nosso brilhante e fofo arquiteto, munido do poder da amizade, implementar o nosso Intanciador de classes!
 
-A idéia é instanciar uma classe passada como parametro no método instanciar do Instanciador.java e recuperar os objetos que vamos injetar de ObjectStorage. 
+A idéia é instanciar uma classe passada como parametro no método instanciar do Instanciador.java, 
+recuperar os objetos que vamos injetar de ObjectStorage e passa-los como parâmetros no construtor. 
+
 Um modo de resolver seria:
 - Encontrar o construtor marcado com nossa annotation Super Original @AutoDollyInjection
 - Se ele não encontrar um construtor com essa anotation, deve jogar uma DollynhoInjectionException. 
