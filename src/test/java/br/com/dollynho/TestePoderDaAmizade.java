@@ -8,7 +8,6 @@ import org.junit.Test;
 
 import br.com.dollynho.business.Coracao;
 import br.com.dollynho.business.CoracaoSemAnnotation;
-import br.com.dollynho.business.CoracaoSemConstrutor;
 import br.com.dollynho.business.MensagensDaAmizade;
 import br.com.dollynho.business.SuperNegocios;
 import br.com.dollynho.injection.DollynhoInjectionException;
@@ -22,11 +21,6 @@ public class TestePoderDaAmizade {
 	@BeforeClass
 	public static void setup() {
 		instanciador = new Instanciador();
-	}
-	
-	@Test(expected = DollynhoInjectionException.class)
-	public void coracaoSemConstrutor() {
-		instanciador.instanciar(CoracaoSemConstrutor.class);
 	}
 	
 	@Test(expected = DollynhoInjectionException.class)
