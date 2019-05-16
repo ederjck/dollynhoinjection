@@ -49,8 +49,8 @@ public class TestePoderDaAmizade {
 	@Test
 	public void superNegocios() {
 		SuperNegocios superNegocios = instanciador.instanciar(SuperNegocios.class);
-		assertEquals("Erro ao encontrar o id dos super neg�cios.", superNegocios.getId(), ObjectStorage.getInstance().getObject(Integer.class));
-		assertEquals("Erro ao encontrar a quantidade de super neg�cios.", superNegocios.getQuantidade(), ObjectStorage.getInstance().getObject(Long.class));
+		assertEquals("Erro ao encontrar o id dos super negócios.", superNegocios.getId(), ObjectStorage.getInstance().getObject(Integer.class));
+		assertEquals("Erro ao encontrar a quantidade de super negócios.", superNegocios.getQuantidade(), ObjectStorage.getInstance().getObject(Long.class));
 	}
 	
 }
