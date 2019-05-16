@@ -31,4 +31,6 @@ onde podemos encontrar qual deles (e se possuem) possui a anotation procurada.
 
 - Depois disso, basta chamar newInstance passando um array com todos os parametros recuperados. Pronto, temos nosso instanciador com injeção!
 
+- Na hora do return, use (T) para fazer o cast do objeto gerado, caso tenha problema nesse passo.
+
 - Use os testes para validar a sua implementação.
