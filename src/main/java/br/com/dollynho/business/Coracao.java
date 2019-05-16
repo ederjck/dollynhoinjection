@@ -5,13 +5,13 @@ import br.com.dollynho.injection.AutoDollyInjection;
 public class Coracao {
 
 	public String getMensagem() {
-		return "O Amor precisa de injeção!";
+		return "O Amor precisa de injeÃ§Ã£o!";
 	}
 
-	//Construtor sem tag de injeção, devemos ignora-lo
+	//Construtor sem tag de injeï¿½ï¿½o, devemos ignora-lo
 	public Coracao(String mensagemDesnecessaria) {
 		super();
-		System.out.println("O coração não precisa de " + mensagemDesnecessaria);
+		System.out.println("O coraÃ§Ã£o nÃ£o precisa de " + mensagemDesnecessaria);
 	}
 	
 	@AutoDollyInjection

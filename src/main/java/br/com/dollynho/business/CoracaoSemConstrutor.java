@@ -3,7 +3,7 @@ package br.com.dollynho.business;
 public class CoracaoSemConstrutor {
 
 	public String getMensagem() {
-		return "O Amor n„o precisa de injeÁ„o!";
+		return "O Amor n√£o precisa de inje√ß√£o!";
 	}
 	
 }

@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * Totalmente diferente de @Autowired e @Injection. 
- * Definitivamente n„o È a mesma coisa. 
+ * Definitivamente n√£o √© mesma coisa. 
  *
  */
 @Retention(RetentionPolicy.RUNTIME)

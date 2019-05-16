@@ -2,8 +2,8 @@ package br.com.dollynho.injection;
 
 /**
  * No nosso projeto muito melhor que CDI, Spring e concorrentes, 
- * todas nossas exceções são tratadas como uma DollynhoInjectionException.
- * Porque é muito mais legal ter uma exceção só pra tudo, não porque estamos simplificando.
+ * todas nossas exceÃ§Ãµes sÃ£o tratadas como uma DollynhoInjectionException.
+ * Porque Ã© muito mais legal ter uma exceÃ§Ã£o pra tudo, nÃ£o Ã© porque estamos simplificando.
  * 
  */
 public class DollynhoInjectionException extends RuntimeException {
