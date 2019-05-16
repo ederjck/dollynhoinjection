@@ -1,6 +1,7 @@
 package br.com.dollynho;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -36,12 +37,14 @@ public class TestePoderDaAmizade {
 	@Test
 	public void coracao() {
 		Object c = instanciador.instanciar(Coracao.class);
+		assertNotNull(c);
 		assertEquals(c.getClass(), Coracao.class);
 	}
 	
 	@Test
 	public void mensagensDaAmizade() {
 		MensagensDaAmizade mensagemAmizade = instanciador.instanciar(MensagensDaAmizade.class);
+		assertNotNull(mensagemAmizade);
 		assertEquals("Erro ao encontrar a mensagem da amizade.", mensagemAmizade.getMensagem(), ObjectStorage.getInstance().getObject(String.class));
 		assertEquals("Erro ao encontrar o valor da mensagem da amizade.", mensagemAmizade.getValor(), ObjectStorage.getInstance().getObject(Double.class));
 	}
@@ -49,6 +52,7 @@ public class TestePoderDaAmizade {
 	@Test
 	public void superNegocios() {
 		SuperNegocios superNegocios = instanciador.instanciar(SuperNegocios.class);
+		assertNotNull(superNegocios);
 		assertEquals("Erro ao encontrar o id dos super negócios.", superNegocios.getId(), ObjectStorage.getInstance().getObject(Integer.class));
 		assertEquals("Erro ao encontrar a quantidade de super negócios.", superNegocios.getQuantidade(), ObjectStorage.getInstance().getObject(Long.class));
 	}
