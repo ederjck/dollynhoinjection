@@ -6,7 +6,7 @@ Parte da implementação foi feita no pacote br.com.dollynho.injection.
 
 Também incluimos alguns testes em TestePoderDaAmizade.java.
 
-Resta a você, nosso brilhante e fofo arquiteto, munido do poder da amizade, implementar o nosso Intanciador de classes!
+Resta a você, nosso brilhante e fofo arquiteto, munido do poder da amizade, implementar o nosso Instanciador de classes!
 
 A idéia é instanciar uma classe passada como parametro no método instanciar do Instanciador.java, 
 recuperar os objetos que vamos injetar de ObjectStorage e passa-los como parâmetros no construtor. 
@@ -21,9 +21,10 @@ Um modo de resolver seria:
 
 Dá pra resolver mexendo apenas no Instanciador.java, mas como arquiteto super sayajin nível 42 modo sábio, fique a vontade para modificar outras classes do pacote.
 
-Reflection funciona utilizando um objeto do tipo java.lang.Class.
-Ele possui acesso a toda a estrutura de uma determinada classe. 
+
 Dicas do Dollynho:
+
+- Reflection funciona utilizando um objeto do tipo java.lang.Class. Ele possui acesso a toda a estrutura de uma determinada classe. 
 
 - Podemos usar classe.getConstructors() para obter uma lista dos construtures a que temos acesso.
 
