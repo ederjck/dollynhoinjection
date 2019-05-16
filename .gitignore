@@ -1,0 +1,16 @@
+.project
+.classpath
+.settings
+.externalToolBuilders
+.tern-project
+target
+*.DS_Store
+*node_modules/
+*build/
+*.idea
+*.iml
+.idea
+.vscode
+.project
+.classpath
+
